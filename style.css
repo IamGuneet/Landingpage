@@ -1,7 +1,14 @@
 body{
     margin: 0px;
 }
-
+.toplo {
+    margin-top: 10px;
+    border-radius: 25px;
+}
+img.tm {
+    border: 2px solid lightblue;
+    border-radius: 10px;
+}
 .top,
 .maininfo {
     display: flex;
@@ -58,8 +65,8 @@ main {
 }
 .team {
     display: flex;
+    gap: 35px;
     justify-content: space-between;
-    gap: 20px;
     font-family: Arial, Helvetica, sans-serif;
 }
 h2 {
